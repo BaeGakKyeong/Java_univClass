@@ -1,0 +1,8 @@
+# compiled files
+*.class
+
+# eclipse build folder
+bin/
+
+# mac
+.DS_Store
