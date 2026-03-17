@@ -1,9 +1,9 @@
 package class03;
 
-public class ForLoop {
+public class Ex01{
     int sum;            //생성자
 
-    public ForLoop(){
+    public Ex01(){
         this.sum = 0;   //자신을 참조하는 this를 사용하여 sum의 초기값을 지정
     }
 
@@ -25,7 +25,7 @@ public class ForLoop {
 
 
     public static void main(String[] args){
-        ForLoop sigma = new ForLoop();
+        Ex01 sigma = new Ex01();
 
         sigma.printSum(10);
     }
