@@ -9,7 +9,7 @@ public class ForLoop {
 
     public void printSum(int limit){
         for(int i = 1; i <= limit; i++){
-            this.sum += 1;
+            this.sum += i;
             System.out.print(i + " ");
 
             if(i < limit) {
@@ -19,14 +19,14 @@ public class ForLoop {
                 System.out.print("= ");
             }
         }
-        
+
         System.out.println(this.sum);
     }
 
 
     public static void main(String[] args){
-        ForLoop forloop = new ForLoop();
+        ForLoop sigma = new ForLoop();
 
-        forloop.printSum(10);
+        sigma.printSum(10);
     }
 }
