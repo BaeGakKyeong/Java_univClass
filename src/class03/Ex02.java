@@ -23,7 +23,7 @@ public class Ex02 {
 
     public static void main(String[] args){
         Ex02 avg = new Ex02();
-        float result = 0;
+        float result = 0;       //받는 타입을 float로 하면 묵시적 형 변환이 이루어져 소서점 아래값까지 표현된다.
 
         System.out.println("자연수 값을 입력하시오. 0을 넣으면 종료됩니다.");
 
